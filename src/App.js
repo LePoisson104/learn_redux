@@ -1,9 +1,11 @@
-import Counter from "./features/counter/Counter";
+import NavBar from "./components/NavBar";
+import CartContainer from "./components/CartContainer";
 
 function App() {
   return (
     <main className="App">
-      <Counter />
+      <NavBar />
+      <CartContainer />
     </main>
   );
 }
